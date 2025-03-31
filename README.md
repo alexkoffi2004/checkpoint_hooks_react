@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Cinema App / checkpoint_hooks_react
+Une application de cinéma où vous pouvez afficher vos films préférés, filtrer par titre ou note, et ajouter de nouveaux films à votre collection.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table des matières
+- Description
 
-## Available Scripts
+- Installation
 
-In the project directory, you can run:
+- Fonctionnalités
 
-### `npm start`
+- Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Contribuer
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
+**Ce projet est une application React permettant de gérer une collection de films. Les utilisateurs peuvent :**
 
-### `npm test`
+- Voir la liste des films avec leurs informations (titre, description, note, poster).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Filtrer les films en fonction du titre ou de la note.
 
-### `npm run build`
+- Ajouter un nouveau film à la collection.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- L'application utilise les hooks React pour gérer l'état et appliquer les filtres dynamiques.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
+### Prérequis
+**Avant de commencer, assurez-vous que vous avez installé Node.js et npm sur votre machine.**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Étapes**
+1. Clonez ce repository sur votre machine locale :
 
-### `npm run eject`
+```
+git clone https://github.com/alexkoffi2004/checkpoint_hooks_react.git
+```
+2. Accédez au répertoire du projet :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```cd checkpoint_hooks_react```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Installez les dépendances :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm install
+```
+4. Lancez l'application en mode développement :
+```
+npm start
+```
+Cela ouvrira l'application dans votre navigateur à l'adresse http://localhost:3000.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Fonctionnalités
+- Affichage des films : Voir la liste de films avec titre, description, note et image.
 
-## Learn More
+- Filtrage : Filtrer les films par titre ou par note.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Ajout de films : Ajouter un nouveau film à la collection.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies
+- React : Utilisation des hooks useState pour la gestion de l'état.
 
-### Code Splitting
+- HTML / CSS : Structuration de l'application et mise en forme.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- JavaScript : Fonctionnalités d'ajout de films et de filtrage dynamiques.
 
-### Analyzing the Bundle Size
+## Contribuer
+1. Forkez ce repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Créez une branche (```git checkout -b feature/nouvelle-fonctionnalité```).
 
-### Making a Progressive Web App
+3. Commitez vos modifications (```git commit -am 'Ajout de nouvelle fonctionnalité```').
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. Poussez la branche (```git push origin feature/nouvelle-fonctionnalité```).
 
-### Advanced Configuration
+5. Ouvrez une pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Authors 
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ce projet à été réalisé par ```Kouadio jean Alex Koffi``` (Alex Koffi)
